@@ -1,0 +1,34 @@
+{
+  "name": "advanced-search-form",
+  "version": "1.0.0",
+  "description": "Exercise files for the Advanced Search From with PHP course",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "foundation-sites": "^6.2.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-css": "^0.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "ssd-select": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh:git@github.com:ssd-tutorials/advanced-search-form-2.git"
+  },
+  "keywords": [
+    "php",
+    "search",
+    "form"
+  ],
+  "author": "Sebastian Sulinski <info@ssdtutorials.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ssd-tutorials/advanced-search-form-2#readme"
+}

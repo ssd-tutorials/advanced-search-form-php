@@ -1,0 +1,13 @@
+<?php
+
+return "
+CREATE TABLE IF NOT EXISTS 'books' (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`category_id`	INTEGER NOT NULL,
+	`isbn`	TEXT NOT NULL,
+	`year`	INTEGER NOT NULL,
+	`title`	TEXT NOT NULL,
+	`description`	TEXT NOT NULL,
+	`price`	NUMERIC DEFAULT 0.00 NOT NULL
+)
+";

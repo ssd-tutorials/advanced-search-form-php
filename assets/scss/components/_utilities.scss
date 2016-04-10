@@ -1,0 +1,76 @@
+.panel {
+
+  padding: 1em;
+  border: solid 1px $iron;
+  background-color: $snow;
+  margin-bottom: 1.25em;
+
+}
+
+@media screen and (min-width: 40em) {
+
+  .panel {
+
+    padding: 2em 2em 1em;
+
+  }
+
+}
+
+.inline-list {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.inline-list li {
+
+  margin-right: 0.5em;
+  display: inline-block;
+
+}
+
+.inline-list li input {
+
+  margin-right: 0.3em;
+
+}
+
+.divider {
+
+  height: 1em;
+
+}
+
+.brtd {
+
+  border-top: dashed 1px $iron;
+
+}
+
+.brts {
+
+  border-top: solid 1px $iron;
+
+}
+
+.center {
+
+  text-align: center;
+
+}
+
+.table-list {
+
+  width: 100%;
+
+}
+
+.table-list th,
+.table-list td {
+
+  border: solid 1px $iron;
+
+}
