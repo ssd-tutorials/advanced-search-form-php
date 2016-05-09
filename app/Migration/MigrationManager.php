@@ -78,8 +78,8 @@ class MigrationManager
      */
     private function disableForeignKeyCheck()
     {
-        if ($this->migration instanceof MySql) {
-            $this->migration->execute("SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0");
+        if ($this->migration->db() instanceof MySql) {
+            $this->migration->db()->execute("SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0");
         }
     }
 
@@ -90,8 +90,8 @@ class MigrationManager
      */
     private function enableForeignKeyCheck()
     {
-        if ($this->migration instanceof MySql) {
-            $this->migration->execute("SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS");
+        if ($this->migration->db() instanceof MySql) {
+            $this->migration->db()->execute("SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS");
         }
     }
 

@@ -19,6 +19,16 @@ class Migration
     }
 
     /**
+     * Get instance of the database.
+     *
+     * @return Database
+     */
+    public function db()
+    {
+        return $this->database;
+    }
+
+    /**
      * Get database type / extension.
      *
      * @return mixed
