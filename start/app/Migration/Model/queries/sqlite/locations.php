@@ -1,0 +1,8 @@
+<?php
+
+return "
+CREATE TABLE IF NOT EXISTS `locations` (
+	`id`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`name`	TEXT NOT NULL
+)
+";

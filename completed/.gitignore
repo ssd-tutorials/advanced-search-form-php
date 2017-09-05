@@ -1,0 +1,6 @@
+.idea/
+/vendor/
+/node_modules/
+books.sqlite
+.env
+.DS_Store

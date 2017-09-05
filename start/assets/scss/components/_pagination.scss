@@ -1,0 +1,59 @@
+.ssd-pagination {
+
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+
+  .button,
+  .label,
+  select {
+
+    float: left;
+
+  }
+
+  .button,
+  .label {
+
+    padding: 0.7rem 1rem;
+
+  }
+
+  .button {
+
+    &.disabled {
+
+      background-color: $gainsboro;
+      opacity: 1;
+
+    }
+
+  }
+
+  .label {
+
+    line-height: 1rem;
+    font-size: map_get($button-sizes, default);
+    background-color: $iron;
+    color: $oil;
+    display: none;
+
+  }
+
+  select {
+
+    width: 7rem;
+
+  }
+
+  @include breakpoint(medium) {
+
+    .label {
+
+      display: inline-block;
+
+    }
+
+  }
+
+}
